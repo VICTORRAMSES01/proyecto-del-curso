@@ -27,8 +27,8 @@ function DogsGrid() {
         return (
             <>
                 <div className="row justify-content-center p-1">
-                    {Object.entries(razaPerro).map(([raza, subrazas]) => (
-                        <Dog raza={raza} />
+                    {Object.entries(razaPerro).map(([raza], index) => (
+                        <Dog key={index} raza={raza}/>
                     ))}
                 </div>
             </>

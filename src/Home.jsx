@@ -1,14 +1,14 @@
 import GridDogs from "./components/dog/GridDogs"
 import Title from "./components/header/Title";
 
-function App() {
+function Home() {
 
   return (
     <>
-      <Title/>
-      <GridDogs/>
+      <Title />
+      <GridDogs />
     </>
   )
 }
 
-export default App
+export default Home
