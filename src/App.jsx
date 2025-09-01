@@ -1,9 +1,14 @@
+import GridDogs from "./components/dog/GridDogs"
+import Title from "./components/header/Title";
+
 function App() {
+
   return (
-    <h1>HOLA MUNDO</h1>
+    <>
+      <Title/>
+      <GridDogs/>
+    </>
   )
 }
 
 export default App
-
-//

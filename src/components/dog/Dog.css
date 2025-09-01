@@ -1,0 +1,5 @@
+.CardDog{
+    cursor: pointer;
+    border: 1px solid skyblue;
+    border-left: 10px solid skyblue;
+}
